@@ -4,19 +4,19 @@
 
 @media screen and (min-width: 1200px) {
   #col-sm-8 {
-    display: none;
+    display: none !important;
   }
 
   #wrapper {
-    display: none;
+    display: none !important;
   }
 
   #sidebar-wrapper {
-    display: none;
+    display: none !important;
   }
 
   #page-content {
-    width: 1000px;
-    margin-left: -315px;
+    width: 1000px !important;
+    margin-left: -315px !important;
   }
 }
