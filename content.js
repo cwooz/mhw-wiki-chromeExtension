@@ -2,4 +2,4 @@
 
 // document.getElementsByTagName("body")[0].style =
 
-console.log('Enjoy the book 📚🤘');
+console.log('Enjoy your research Hunter 📚🏹🤘');
