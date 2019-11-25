@@ -1,8 +1,8 @@
 {
-  "name": "book-format",
+  "name": "mhw-wiki",
   "version": "1.1.0",
   "manifest_version": 2,
-  "description": "Format Book!",
+  "description": "Monster Hunter World Wiki - Website Fix!",
   "author": "wooz",
   "permissions": ["storage"],
 
@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.neuralnetworksanddeeplearning.com/*"
+        "*://*.monsterhunterworld.wiki.fextralife.com/*"
       ],
         "css": ["style.css"],
         "js": ["content.js"]
