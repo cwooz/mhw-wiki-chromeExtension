@@ -8,14 +8,14 @@
   }
 
   #wrapper {
-    display: none !important;
+    /* display: none !important; */
   }
 
   #sidebar-wrapper {
     display: none !important;
   }
 
-  #page-content {
+  .page-content {
     width: 1000px !important;
     margin-left: -315px !important;
   }
