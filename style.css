@@ -7,16 +7,16 @@
     display: none !important;
   }
 
-  #wrapper {
-    /* display: none !important; */
-  }
+  /* #wrapper {
+    display: none !important;
+  } */
 
   #sidebar-wrapper {
     display: none !important;
   }
 
   .page-content {
-    width: 1000px !important;
+    width: 1010px !important;
     margin-left: -315px !important;
   }
 }
