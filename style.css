@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    width: 1200px !important;
+  }
+  
+  .marginnote {
+   left: 1300px !important; 
+  }
+  
+  #toc {
+    left: 1400px !important;
+  }  
+}

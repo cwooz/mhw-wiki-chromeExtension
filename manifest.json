@@ -1,0 +1,19 @@
+{
+  "name": "book-format",
+  "version": "1.1.0",
+  "manifest_version": 2,
+  "description": "Format Book!",
+  "author": "wooz",
+  "permissions": ["storage"],
+
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.neuralnetworksanddeeplearning.com/*"
+      ],
+        "css": ["style.css"],
+        "js": ["content.js"]
+    }
+  ]
+}
