@@ -1,17 +1,20 @@
-@media screen and (max-width: 800px) {
-
-}
+@media screen and (max-width: 800px) { }
 
 @media screen and (min-width: 1200px) {
-  .section {
-    width: 1200px !important;
+  #col-sm-8 {
+    display: none;
   }
-  
-  .marginnote {
-   left: 1300px !important; 
+
+  #wrapper {
+    display: none;
   }
-  
-  #toc {
-    left: 1400px !important;
-  }  
+
+  #sidebar-wrapper {
+    display: none;
+  }
+
+  #page-content {
+    width: 1000px;
+    margin-left: -315px;
+  }
 }
