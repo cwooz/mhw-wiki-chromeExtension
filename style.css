@@ -1,3 +1,11 @@
+.vault-loder {
+  display: none !important;
+}
+
+.responsive {
+  display: none !important;
+}
+
 #sidebar-wrapper {
   display: none !important;
 }
