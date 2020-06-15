@@ -1,14 +1,21 @@
-@media screen and (max-width: 800px) {
-  #wrapper {
-    display: none !important;
-    padding-left: 0px !important;
-  }
-
+#sidebar-wrapper {
+  display: none !important;
 }
+
+#wrapper {
+  padding-left: 0px !important;
+}
+
+/* @media screen and (min-width: 800px) {
+} */
 
 @media screen and (min-width: 1200px) {
   #col-sm-8 {
     display: none !important;
+  }
+
+  #wrapper {
+    padding-left: 400px !important;
   }
 
   #sidebar-wrapper {
@@ -16,7 +23,8 @@
   }
 
   .page-content {
-    width: 1010px !important;
+    /* width: 1440px !important; */
+    width: 100% !important;
     margin-top: 30px !important;
     margin-left: -320px !important;
   }
